@@ -59,10 +59,26 @@ p {
   background-color: transparent;
 
 }
+/* Styling for the modal */
+.custom-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(255, 255, 255); /* White modal with transparency */
+  border-radius: 10px;
+  padding: 2rem;
+  max-width: 80%;
+  max-height: 80%;
+}
+.custom-modal:focus{
+  outline: none;
+}
+
 
 .vpnBtn {
-  width: 30vw;
-  height: 70vh;
+  width: 25vw;
+  height: 50vh;
   position: relative;
   margin: 0 auto;
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
@@ -70,7 +86,7 @@ p {
 @media screen and (max-width:768px) {
   
 .vpnBtn {
-  width: 75vw;
-  height: 70vh;
+  width: 60vw;
+  height: 50vh;
 }
 }

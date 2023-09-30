@@ -8,10 +8,15 @@ export default {
       black: "#000000",
       white: "#FFFFFF",
       orange:"#FFB321",
-      red:"#EB2051"
+      red:"#EB2051",
+      gray:"#F5F5F5",
+      grey:"#C6C6D5",
+      lightBlack:"#0FFFFFF"
     },
     extend: {
-    
+      corePlugins: {
+        textCopy: false,
+      },
     },
   },
   plugins: [require("@tailwindcss/typography")],
